@@ -1,17 +1,3 @@
-# TALLER ( PRIMER PARCIAL)
-### ARQUITECTURA DE COMPUTADORES
-#### 2017
-###### Porcentaje 30%
-
-
-1. Describa la Taxonomía de Flynn.
-2. Diga cuales son los 4 principios de diseño.
-3. Explique los tres formatos que se usan en la arquitectura SPARC V8, y que instrucciones usan los formatos correspondientes a la arquitectura **SPARC V8** 
-4. Explique cómo inicializar un valor grande, que ocupe más de 13 bits, en la arquitectura **SPARC V8**.
-5. Como puedo reescribir la instrucción **(OR y SUBcc)** cuando inicializo y  comparó 2 registros.
-
-6. Implementa en lenguaje ensamblador y lenguaje de máquina el siguiente programa.
-7. ¿Qué instrucciones utilizan el delay slot antes de saltar?
 8. ¿Qué significa el bit **a**, en el formato 2 de las instrucciones **BRANCH**?
 9. ¿Por que la instrucción **CALL** utilizar el registro %o7 ---> registro 15.?
 10. Convierta el siguiente código a lenguaje ensamblador, máquina **SPARC V8** y hexadecimal.
