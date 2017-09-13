@@ -5,7 +5,7 @@
 
 
 8. ¿Qué significa el bit **a**, en el formato 2 de las instrucciones **BRANCH**?
-    ###### R/ 
+    ###### R/ Hace refencia a la ejecución del delay slot, si esta 1 significa que no ejecuta la instrucción de abajo y 0 que si ejecuta la intrucción de abajo
 9. ¿Por que la instrucción **CALL** utilizar el registro %o7 ---> registro 15.?
 10. Convierta el siguiente código a lenguaje ensamblador, máquina **SPARC V8** y hexadecimal.
 a.
