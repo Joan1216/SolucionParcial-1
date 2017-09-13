@@ -9,7 +9,7 @@
 9. convertir el programa en lenguaje de máquina a lenguaje ensamblador y luego a lenguaje de alto nivel el siguiente programa:
 
 ```10100000000100000010000000000101```
-###### R/ |10|10000|
+###### R/ |10|10000|000010|000000|1|0000000000101|
 ```10100010000100000011111111111010```
 ```10010000000001000100000000010000```
 
