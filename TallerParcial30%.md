@@ -9,8 +9,8 @@
 9. convertir el programa en lenguaje de máquina a lenguaje ensamblador y luego a lenguaje de alto nivel el siguiente programa:
 
 ```10100000000100000010000000000101```
-###### R/  op  rd    op3     rs1  i     imm13
-######    |10|10000|000010|000000|1|0000000000101|
+###### R/                    
+######    |op=10|rd=10000|op3=000010|rs1=000000|i=1|imm13=0000000000101|
 ######    OR %g0, 5, %l0   lenguaje ensamblador
 ######    int a = 5;       lenguaje de alto nivel
 ```10100010000100000011111111111010```
