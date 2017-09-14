@@ -5,7 +5,7 @@
 
 
 8. ¿Por que la instrucción **CALL** utilizar el registro %o7 ---> registro 15.?
-     ###### R/ Es la dirección donde se almacena la dirección de la instrucción call
+     ###### R/ Porque en el registro %o7 se almacena la dirección actual de la instrucción call
 9. convertir el programa en lenguaje de máquina a lenguaje ensamblador y luego a lenguaje de alto nivel el siguiente programa:
 
 ```10100000000100000010000000000101```
