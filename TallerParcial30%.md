@@ -88,7 +88,7 @@ Test
 MOV 0 %o1            0X0000
 SLL %i2, 2, %l0      0x0004
 SUB %i0, %i1, %l1    0x0008
-ADD %l1, %l0, %l1    0x000C
+ADD %l1, %l0, %o1    0x000C
 JMPL %o7, 8, %g0     0x00010
 ADD %o1, 2, %o1      0x00014
 
