@@ -11,7 +11,7 @@
 ```10100000000100000010000000000101
 10100010000100000011111111111010
 10010000000001000100000000010000```
-###### R/ lenguaje de máquina                    
+**    lenguaje de máquina   **                 
 ######    |op=10|rd=10000|op3=000010|rs1=00000|i=1|imm13=0000000000101|
 ######    |op=10|rd=10001|op3=000000|rs1=00000|i=1|imm13=1111111111010|
 ######    |op=10|rd=01000|op3=000000|rs1=10001|i=0|unsed(zero)=00000000|rs2=10000|
@@ -19,7 +19,10 @@
 ######    OR %g0, 5, %l0 
 ######    OR %g0, -6,%l1  
 ######    lenguaje de alto nivel
-######    int a = 5;        
+######    int main(){
+######    int a = 5;  
+######    int b = -6;
+######    return a + b;}
 
 
 10. Convierta el siguiente código a lenguaje ensamblador, máquina **SPARC V8** y hexadecimal.
