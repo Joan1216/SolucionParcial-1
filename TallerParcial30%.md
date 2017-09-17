@@ -84,6 +84,7 @@ int main(){
 	return x + 45;
 }
 LENGUAJE ENSAMBLADOR
+
 Test
 MOV 0 %o1            0X0000
 SLL %i2, 2, %l0      0x0004
