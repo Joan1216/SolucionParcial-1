@@ -83,6 +83,22 @@ int main(){
 	int x = test(p,y,c);
 	return x + 45;
 }
+LENGUAJE ENSAMBLADOR
+Test
+MOV 0 %o1            0X0000
+SLL %i2, 2, %l0      0x0004
+SUB %i0, %i1, %l1    0x0008
+ADD %l1, %l0, %l1    0x000C
+JMPL %o7, 8, %g0     0x00010
+ADD %o1, 2, %o1      0x00014
+
+MAIN:
+
+MOV 4 %i0            0x00018
+MOV 2 %i1            0x0001C
+CALL Test            0x00020
+MOV -128 %i2         0x00024
+ADD %l0, 45, %o0     0x00028
  ```
 12. Implemente una función **Mul** en lenguaje de alto nivel, lenguaje ensamblador **SPARC V8** y lenguaje de máquina SPARC V8 que realice la multiplicación de dos enteros sin signo usando solo sumas.
 13. Implemente la función **Pot** en lenguaje de alto nivel,lenguaje ensamblador **SPARC V8** y lenguaje de máquina SPARC V8 que realice la potencia de dos números enteros sin signo realizando llamados a la función desarrollada en el punto 9.
