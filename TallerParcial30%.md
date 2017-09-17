@@ -100,6 +100,12 @@ MOV 2 %i1            0x0001C
 CALL Test            0x00020
 MOV -128 %i2         0x00024
 ADD %l0, 45, %o0     0x00028
+
+LENGUAJE DE MÁQUINA
+
+10010010000100000010000000000000  0X0000
+10100001001011100110000000000010  0X0004
+
  ```
 12. Implemente una función **Mul** en lenguaje de alto nivel, lenguaje ensamblador **SPARC V8** y lenguaje de máquina SPARC V8 que realice la multiplicación de dos enteros sin signo usando solo sumas.
 13. Implemente la función **Pot** en lenguaje de alto nivel,lenguaje ensamblador **SPARC V8** y lenguaje de máquina SPARC V8 que realice la potencia de dos números enteros sin signo realizando llamados a la función desarrollada en el punto 9.
