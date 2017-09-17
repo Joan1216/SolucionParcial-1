@@ -5,7 +5,9 @@
 
 
 8. ¿Por que la instrucción **CALL** utilizar el registro %o7 ---> registro 15.?
-   ```R/ Porque en el registro %o7 se almacena la dirección actual de la instrucción call```
+   ```
+   R/ Porque en el registro %o7 se almacena la dirección actual de la instrucción call
+   ```
 9. convertir el programa en lenguaje de máquina a lenguaje ensamblador y luego a lenguaje de alto nivel el siguiente programa:
 
 ```
@@ -27,7 +29,8 @@
  int main(){
  int a = 5;  
  int b = -6;
- return a + b;}```
+ return a + b;}
+ ```
 
 
 10. Convierta el siguiente código a lenguaje ensamblador, máquina **SPARC V8** y hexadecimal.
