@@ -73,13 +73,16 @@ int main(){
 11. Convierta el siguiente código a lenguaje ensamblador, máquina **SPARC V8** y hexadecimal.
  ```c
 int test(int a, int b, int c){
+       %o1
 	int z;
 	z = a - b + c*4;
 	return z + 2;
 }
 
 int main(){
+         %i0     %i1     %i2
 	int p = 4, y = 2, c = -128;
+	 %l0
 	int x = test(p,y,c);
 	return x + 45;
 }
