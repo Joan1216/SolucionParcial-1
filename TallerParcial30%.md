@@ -142,6 +142,22 @@ Hexadecimal
  }
  return c;
  }
+ LENGUAJE ENSAMBLADOR
+ MULT
+ 
+ MOV 0 %i0           0x0000
+ MOV 0 %L0           0X0004
+ FOR
+ CMP %l0, %i2        0x0008
+ BG a SALIDA         0x000C
+ ADD %i0, %i1, %i0   0x00010
+ BA FOR              0x00014
+ INC %l0             0x00018
+ SALIDA
+ ADD %i0, %g0, %o0   0x0001C
+ 
+ LENGUAJE DE MÁQUINA
+ 
  ```
 
 13. Implemente la función **Pot** en lenguaje de alto nivel,lenguaje ensamblador **SPARC V8** y lenguaje de máquina SPARC V8 que realice la potencia de dos números enteros sin signo realizando llamados a la función desarrollada en el punto 9.
