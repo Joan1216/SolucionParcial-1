@@ -134,7 +134,9 @@ Hexadecimal
 ```
 12. Implemente una función **Mul** en lenguaje de alto nivel, lenguaje ensamblador **SPARC V8** y lenguaje de máquina SPARC V8 que realice la multiplicación de dos enteros sin signo usando solo sumas.
  ```c
+           %i1    %i2
  int mult(int a, int b){
+     %l1  %l0
  int c=0, i=0;
  for(i=1;i<=b;i++)
  {
@@ -143,8 +145,8 @@ Hexadecimal
  return c;
  }
  LENGUAJE ENSAMBLADOR
- MULT
  
+ MULT
  MOV 0 %i0           0x0000
  MOV 0 %L0           0X0004
  FOR
@@ -157,6 +159,7 @@ Hexadecimal
  ADD %i0, %g0, %o0   0x0001C
  
  LENGUAJE DE MÁQUINA
+ 
  
  ```
 
