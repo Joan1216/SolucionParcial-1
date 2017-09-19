@@ -135,6 +135,9 @@ SETHI  , %L0         0x00000
 OR %L0 , 324 , %L1   0x00004
 
 LENGUAJE DE MÁQUINA
+
+/00/10000/100/1111111111111111101011/  0x00000
+/10/10001/000010/10000/0000101000100/  0x00004
 ```
 
 11. Convierta el siguiente código a lenguaje ensamblador, máquina **SPARC V8** y hexadecimal.
