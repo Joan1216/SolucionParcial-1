@@ -316,7 +316,8 @@ Hexadecimal
  BA FOR                 0x00014
  INC %l0                0x00018
    salida
- ADD %l1, %g0, %o0     0x0001c
+ ADD %l1, %g0, %o0      0x0001c
+ 
   LENGUAJE DE MÁQUINA
   
   10100000000100000010000000000001
