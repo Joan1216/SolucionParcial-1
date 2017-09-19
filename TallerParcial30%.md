@@ -320,6 +320,9 @@ int pot(int a , int b)
  ADD %L2 , 1 , %L2
  SALIDA
    ADD %I0, 0 , %O0
+   
+   LENGUAJE DE MÁQUINA
+   
 ```
 
 
@@ -390,4 +393,7 @@ int DIV(int a , int b)
    ADD %L0 , 1 , %L0
  SALIDA
    OR %L0 , 0 , %O0
+   
+   LENGUAJE DE MÁQUINA
+   
 ```
