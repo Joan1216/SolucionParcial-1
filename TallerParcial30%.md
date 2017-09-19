@@ -71,6 +71,8 @@ SINO                  0x0002C
   MOV %L6 , %O0       0x00030
 SALIDA                0x00034
   ADD %L0 , %L2 , %O1 0x00038
+  
+LENGUAJE DE MÁQUINA  
  ```
 b.
  ```c
@@ -97,6 +99,8 @@ BNE A SALIDA1         0x00010
 SRL %L1 , 3 , %O1     0x00014
 SALIDA1               0x00018
   ADD %L2 , 0 , %O0   0x0001C
+  
+LENGUAJE DE MÁQUINA
 
 ```
 c.
@@ -111,6 +115,8 @@ MAIN:
 
 SETHI  , %L0         0x00000
 OR %L0 , 324 , %L1   0x00004
+
+LENGUAJE DE MÁQUINA
 ```
 
 11. Convierta el siguiente código a lenguaje ensamblador, máquina **SPARC V8** y hexadecimal.
