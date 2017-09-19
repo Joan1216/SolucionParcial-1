@@ -380,4 +380,14 @@ int DIV(int a , int b)
  }
  
  LENGUAJE ENSAMBLADOR
+ 
+ MOV 1 , %L0
+ FOR
+   CMP %I0 , %I1
+   BLE A SALIDA
+   SUB %I0 , %I1 , %I0
+   BA FOR
+   ADD %L0 , 1 , %L0
+ SALIDA
+   OR %L0 , 0 , %O0
 ```
