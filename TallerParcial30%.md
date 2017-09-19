@@ -306,6 +306,16 @@ int pot(int a , int b)
  }
  
  LENGUAJE ENSAMBLADOR
+ 
+ pot
+   MOV 1 , %L2
+   MOV 0 , %L3
+   MOV 0 , %L4
+ FOR
+   CMP %L2 , %L1
+   BGE A SALIDA
+   CALL MULT
+   ADD %L4 , 
 ```
 
 
