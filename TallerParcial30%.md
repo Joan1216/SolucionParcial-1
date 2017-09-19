@@ -106,6 +106,11 @@ int main(){
 }
 
 LENGUAJE ENSAMBLADOR
+
+MAIN:
+
+SETHI  , %L0
+OR %L0 , 324 , %L1
 ```
 
 11. Convierta el siguiente código a lenguaje ensamblador, máquina **SPARC V8** y hexadecimal.
