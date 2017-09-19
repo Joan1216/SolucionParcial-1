@@ -77,7 +77,7 @@ int test(int a, int b, int c){
 	int z;
 	z = a - b + c*4;
 	return z + 2;
-}
+} 
 
 int main(){
          %i0     %i1     %i2
