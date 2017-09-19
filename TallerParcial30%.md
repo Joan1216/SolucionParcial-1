@@ -312,14 +312,14 @@ int pot(int a , int b)
    MOV 0 , %L3
    MOV 0 , %L4
  FOR
-   CMP %L2 , %L1
+   CMP %L2 , %I1
    BGE A SALIDA
    CALL MULT
-   ADD %L4 , %L0 , %L4
+   ADD %L4 , %I0 , %L4
  BA FOR
  ADD %L2 , 1 , %L2
  SALIDA
-   ADD %L0, 0 , %O0
+   ADD %I0, 0 , %O0
 ```
 
 
