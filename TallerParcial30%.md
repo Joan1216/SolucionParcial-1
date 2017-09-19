@@ -316,6 +316,8 @@ int pot(int a , int b)
    BGE A SALIDA
    CALL MULT
    ADD %L4 , %L0 , %L4
+ BA FOR
+ ADD %L2 , 1 , %L2
  SALIDA
    ADD %L0, 0 , %O0
 ```
