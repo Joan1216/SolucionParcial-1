@@ -79,6 +79,16 @@ LENGUAJE DE MÁQUINA
 /10/11000/000010/10001/1//                  0x00008
 /10/10010/000010/000000/1/0000000100001/    0x0000C
 /10/10011/000000/10000/0/00000000/10001/    0x00010
+/10/10100/100101/10001/1/0000000000/00101/
+
+/00/1/1010/010/0000000000000000000100/
+/10/10101/100101/10001/1/0000000000001/
+/10/10010/000000/10000/0/00000000/10101/
+/00/1/1000/010/0000000000000000000010/
+SINO
+  /10/01000/000010/00000/0/00000000/10001/
+SALIDA
+  /10/01001/000000/10000/0/00000000/10010/
 
 
  ```
@@ -241,16 +251,4 @@ Hexadecimal
 
 13. Implemente la función **Pot** en lenguaje de alto nivel,lenguaje ensamblador **SPARC V8** y lenguaje de máquina SPARC V8 que realice la potencia de dos números enteros sin signo realizando llamados a la función desarrollada en el punto 9.
 14. Implemente una función **Fact** en lenguaje de alto nivel, lenguaje ensamblador **SPARC V8** y lenguaje de máquina SPARC V8 que calcule el factorial de un número entero sin signo.
-```c
-int Fact(int a){
-  int i,c=1;
-  for(i=1 ; i<=a ; i++)
-    {
-     c=i*c;
-    }
-    return c;   
-}
-LENGUAJE ENSAMBLADOR
-
-```
 15. Implemente una función **Div** en lenguaje de alto nivel, lenguaje ensamblador **SPARC V8** y lenguaje de máquina SPARC V8 que calcule la division de un número entero sin signo.
