@@ -304,6 +304,8 @@ int pot(int a , int b)
        
    	 return a;
  }
+ 
+ LENGUAJE ENSAMBLADOR
 ```
 
 
@@ -362,4 +364,6 @@ int DIV(int a , int b)
  	 a=a-b;
  	 return i;
  }
+ 
+ LENGUAJE ENSAMBLADOR
 ```
