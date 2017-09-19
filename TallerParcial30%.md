@@ -294,6 +294,19 @@ Hexadecimal
  ```
 
 13. Implemente la función **Pot** en lenguaje de alto nivel,lenguaje ensamblador **SPARC V8** y lenguaje de máquina SPARC V8 que realice la potencia de dos números enteros sin signo realizando llamados a la función desarrollada en el punto 9.
+```c
+int pot(int a , int b)
+ {
+ 	int i,o,f=a;
+ 	
+ 	for(i=1;i<b;i++)
+        a= mult(a,f);
+       
+   	 return a;
+ }
+```
+
+
 14. Implemente una función **Fact** en lenguaje de alto nivel, lenguaje ensamblador **SPARC V8** y lenguaje de máquina SPARC V8 que calcule el factorial de un número entero sin signo.
 ```c
  int Fact(int a){
