@@ -315,7 +315,9 @@ int pot(int a , int b)
    CMP %L2 , %L1
    BGE A SALIDA
    CALL MULT
-   ADD %L4 , 
+   ADD %L4 , %L0 , %L4
+ SALIDA
+   ADD %L0, 0 , %O0
 ```
 
 
