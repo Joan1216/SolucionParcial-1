@@ -109,8 +109,8 @@ LENGUAJE ENSAMBLADOR
 
 MAIN:
 
-SETHI  , %L0
-OR %L0 , 324 , %L1
+SETHI  , %L0         0x00000
+OR %L0 , 324 , %L1   0x00004
 ```
 
 11. Convierta el siguiente código a lenguaje ensamblador, máquina **SPARC V8** y hexadecimal.
