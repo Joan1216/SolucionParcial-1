@@ -302,5 +302,15 @@ Hexadecimal
  00010000101111111111111111111100
  10100000000001000010000000000001
  10000000000010001000000000000000
+ 
+ Hexadecimal
+ 0XA0102001
+ 0XA2102001
+ 
+ 0X34800004
+ 0XA12C0011
+ 0X10BFFFFC
+ 0XA0042001
+ 0X90044000
   ```
 15. Implemente una función **Div** en lenguaje de alto nivel, lenguaje ensamblador **SPARC V8** y lenguaje de máquina SPARC V8 que calcule la division de un número entero sin signo.
