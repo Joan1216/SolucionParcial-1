@@ -37,9 +37,12 @@ R/ Porque en el registro %o7 se almacena la dirección actual de la instrucción
 a. 
  ```c
  int main(){
+        %L0
  int a = 8;
+       %L1>>%L6
  int b = -16800;
- int c = 33; 
+      %L2
+int c = 33; 
  if((a+b)<=b*32){
  	c=a+(b*2);
 	}
@@ -50,6 +53,24 @@ else{
 }
 
 LENGUAJE ENSAMBLADOR
+
+MAIN:
+
+MOV 8 %L0            0x00000
+SETHI ,%L0            0x00004
+OR %L0 ,  , %L6       0x00008
+MOV 33 %L2            0x00008 
+ADD %L0 , %L6 , %L3
+SLL %L6 , 5 , %L4
+CMP %L3 , %L4
+BG A SINO
+SLL %L6 , 1 , %L5
+ADD %L0 , %L5 , %L2
+BA A SALIDA
+SINO
+  MOV %L6 , %O0
+SALIDA
+  ADD %L0 , %L2 , %O1
  ```
 b.
  ```c
