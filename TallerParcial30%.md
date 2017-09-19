@@ -3,7 +3,6 @@
 #### 2017
 ###### Porcentaje 30%
 
-
 8. ¿Por que la instrucción **CALL** utilizar el registro %o7 ---> registro 15.? 
 ```
 R/ Porque en el registro %o7 se almacena la dirección actual de la instrucción call
