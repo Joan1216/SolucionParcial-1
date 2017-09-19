@@ -279,8 +279,8 @@ Hexadecimal
       return c;   
   }
  LENGUAJE ENSAMBLADOR
+ 
  Fact
-
  MOV 1 %l0              0x0000
  MOV 1 %l1              0x0004
    FOR
