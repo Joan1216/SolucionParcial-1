@@ -341,7 +341,7 @@ Hexadecimal
  0X90044000
   ```
 15. Implemente una función **Div** en lenguaje de alto nivel, lenguaje ensamblador **SPARC V8** y lenguaje de máquina SPARC V8 que calcule la division de un número entero sin signo.
-
+```c
 int DIV(int a , int b)
  {
  	int i;
@@ -349,3 +349,4 @@ int DIV(int a , int b)
  	 a=a-b;
  	 return i;
  }
+```
