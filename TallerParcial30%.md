@@ -32,7 +32,7 @@ R/ Porque en el registro %o7 se almacena la dirección actual de la instrucción
  return a + b;}
  ```
 
-
+  
 10. Convierta el siguiente código a lenguaje ensamblador, máquina **SPARC V8** y hexadecimal.
 a. 
  ```c
