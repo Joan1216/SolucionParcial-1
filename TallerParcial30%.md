@@ -56,21 +56,21 @@ LENGUAJE ENSAMBLADOR
 
 MAIN:
 
-MOV 8 %L0            0x00000
+MOV 8 %L0             0x00000
 SETHI ,%L0            0x00004
 OR %L0 ,  , %L6       0x00008
-MOV 33 %L2            0x00008 
-ADD %L0 , %L6 , %L3
-SLL %L6 , 5 , %L4
-CMP %L3 , %L4
-BG A SINO
-SLL %L6 , 1 , %L5
-ADD %L0 , %L5 , %L2
-BA A SALIDA
-SINO
-  MOV %L6 , %O0
-SALIDA
-  ADD %L0 , %L2 , %O1
+MOV 33 %L2            0x0000C 
+ADD %L0 , %L6 , %L3   0x00010
+SLL %L6 , 5 , %L4     0x00014
+CMP %L3 , %L4         0x00018
+BG A SINO             0x0001C
+SLL %L6 , 1 , %L5     0x00020
+ADD %L0 , %L5 , %L2   0x00024
+BA A SALIDA           0x00028
+SINO                  0x0002C
+  MOV %L6 , %O0       0x00030
+SALIDA                0x00034
+  ADD %L0 , %L2 , %O1 0x00038
  ```
 b.
  ```c
