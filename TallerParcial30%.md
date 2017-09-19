@@ -34,7 +34,7 @@ R/ Porque en el registro %o7 se almacena la dirección actual de la instrucción
 
 
 10. Convierta el siguiente código a lenguaje ensamblador, máquina **SPARC V8** y hexadecimal.
-a.
+a. 
  ```c
  int main(){
  int a = 8;
