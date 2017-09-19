@@ -15,16 +15,19 @@ R/ Porque en el registro %o7 se almacena la dirección actual de la instrucción
 10/01000/000000/10001/0/00000000/10000
 
  LENGUAJE DE MÁQUINA
+ 
  |op=10|rd=10000|op3=000010|rs1=00000|i=1|imm13=0000000000101|
  |op=10|rd=10001|op3=000000|rs1=00000|i=1|imm13=1111111111010|
  |op=10|rd=01000|op3=000000|rs1=10001|i=0|unsed(zero)=00000000|rs2=10000|
 
  LENGUAJE ENSAMBLADOR
+ 
  OR %g0, 5, %l0 
  OR %g0, -6,%l1  
  ADD %l1, %l2, %o0
 
  LENGUAJE DE ALTO NIVEL
+ 
  int main(){
  int a = 5;  
  int b = -6;
