@@ -86,6 +86,18 @@ else{
 }
 
 LENGUAJE ENSAMBLADOR
+
+MAIN:
+
+MOV 8 , %L0           0x00000
+MOV -10 , %L2         0x00004
+MOV # , %L1           0x00008
+CMP %L0 , %L2         0x0000C
+BNE A SALIDA1         0x00010
+SRL %L1 , 3 , %O1     0x00014
+SALIDA1               0x00018
+  ADD %L2 , 0 , %O0   0x0001C
+
 ```
 c.
  ```c
