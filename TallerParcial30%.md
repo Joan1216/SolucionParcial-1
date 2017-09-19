@@ -37,7 +37,7 @@ R/ Porque en el registro %o7 se almacena la dirección actual de la instrucción
 a. 
  ```c
  int main(){
-        %L0
+        %L0 
  int a = 8;
        %L1>>%L6
  int b = -16800;
