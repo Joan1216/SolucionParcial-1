@@ -115,10 +115,19 @@ MOV # , %L1           0x00008
 CMP %L0 , %L2         0x0000C
 BNE A SALIDA1         0x00010
 SRL %L1 , 3 , %O1     0x00014
-SALIDA1               0x00018
+SALIDA                0x00018
   ADD %L2 , 0 , %O0   0x0001C
   
 LENGUAJE DE MÁQUINA
+
+/10/10000/000010/00000/1/0000000001000/   0x00000
+/10/10010/000010/00000/1/0000000000110/   0x00004
+/10/10001/000010/00000/1/0000000000000/   0x00008
+CMP                                       0x0000C
+/00/1/1001/010/0000000000000000000010/    0x00010
+/10/01001/100110/10001/1/00000000/00011/  0x0001C
+SALIDA
+  /10/01000/000000/10010/1/0000000000000/ 0x00020
 
 ```
 c.
@@ -265,16 +274,5 @@ Hexadecimal
   }
  LENGUAJE ENSAMBLADOR
  
- Fact
- MOV 1 %l0              0x0000
- MOV 1 %l1              0x0004
- FOR
- CMP %l0, %i0           0x0008
- BG a salida            0x000C
- SLL %l0, %1, %l1       0x00010
- BA FOR                 0x00014
- INC %l0                0x00018
- salida
- ADD %l1, %g0, %o0     0x0001c
   ```
 15. Implemente una función **Div** en lenguaje de alto nivel, lenguaje ensamblador **SPARC V8** y lenguaje de máquina SPARC V8 que calcule la division de un número entero sin signo.
