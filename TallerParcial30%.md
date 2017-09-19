@@ -265,5 +265,16 @@ Hexadecimal
   }
  LENGUAJE ENSAMBLADOR
  
+ Fact
+ MOV 1 %l0
+ MOV 1 %l1
+ FOR
+ CMP %l0, %i0
+ BG a salida
+ SLL %l0, %1, %l1
+ BA FOR
+ INC %l0
+ salida
+ ADD %l1, %g0, %o0
   ```
 15. Implemente una función **Div** en lenguaje de alto nivel, lenguaje ensamblador **SPARC V8** y lenguaje de máquina SPARC V8 que calcule la division de un número entero sin signo.
